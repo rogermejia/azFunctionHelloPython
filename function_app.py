@@ -20,6 +20,6 @@ def pyGithubactions(req: func.HttpRequest) -> func.HttpResponse:
         return func.HttpResponse(f"Hello, {name}. This HTTP triggered function executed successfully.")
     else:
         return func.HttpResponse(
-             "Pass a name in the query string",
+             "Github actions succeeded",
              status_code=200
         )
